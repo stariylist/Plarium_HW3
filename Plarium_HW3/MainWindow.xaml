@@ -1,0 +1,21 @@
+﻿<Window x:Class="Plarium_HW3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Plarium_HW3"
+        mc:Ignorable="d"
+        Title="Задание№3" Height="450" Width="749" Background="#FFD5F1EA" Icon="1612771757_c-sharp-c-logo.png">
+    <!--здесь все и так понятно, комментарии не писал т.к. все делал в конструкторе-->
+    <Grid>
+        <TextBox x:Name="array_text" HorizontalAlignment="Left" Height="40" Margin="21,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
+        <Label Content="Полученный массив:" HorizontalAlignment="Left" Height="35" Margin="21,76,0,0" VerticalAlignment="Top" Width="300" FontSize="18"/>
+        <Button x:Name="get_array" Content="Сгенерировать массив" HorizontalAlignment="Left" Margin="100,156,0,0" VerticalAlignment="Top" Width="160" Click="get_array_Click"/>
+        <Button x:Name="get_sum" Content="Получить сумму элементов" HorizontalAlignment="Left" Height="20" Margin="480,156,0,0" VerticalAlignment="Top" Width="160" Click="get_sum_Click"/>
+        <Label Content="Постановка задачи: Написать программу, которая введет семь значений &#xD;&#xA;и посчитает сумму целых чисел, делящихся на 3 без остатка." HorizontalAlignment="Left" Margin="21,10,0,0" VerticalAlignment="Top" Height="71" Width="761" FontStyle="Italic" FontSize="20"/>
+        <TextBox x:Name="sum_text" HorizontalAlignment="Left" Height="40" Margin="401,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
+        <Label Content="Сумма элементов:" HorizontalAlignment="Left" Height="35" Margin="401,76,0,0" VerticalAlignment="Top" Width="287" FontSize="18"/>
+        <Button x:Name="change_rnd_values" Content="Изменить диапазон значений массива" HorizontalAlignment="Left" Margin="260,181,0,0" VerticalAlignment="Top" Width="220" Click="change_rnd_values_Click"/>
+
+    </Grid>
+</Window>

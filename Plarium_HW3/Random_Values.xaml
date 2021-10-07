@@ -1,0 +1,18 @@
+﻿<Window x:Class="Plarium_HW3.Random_Values"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Plarium_HW3"
+        mc:Ignorable="d"
+        Title="Границы массива" Height="193.5" Width="320" Icon="image_src-e81e169e954ca6f405af0e49f05cee2a.png">
+    <Grid Background="#FFD5F1EA">
+        <Label Content="min:" HorizontalAlignment="Left" Margin="42,65,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="max:" HorizontalAlignment="Left" Margin="172,65,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Выберите минимальное и &#xD;&#xA;максимальное значение массива!" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="55" Width="292" FontSize="18"/>
+        <TextBox x:Name="min_value" HorizontalAlignment="Left" Height="35" Margin="90,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" FontSize="18" Text="-20"/>
+        <TextBox x:Name="max_value" HorizontalAlignment="Left" Height="35" Margin="219,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" FontSize="18" Text="50"/>
+        <Button x:Name="apply_rnd_values" Content="Принять" HorizontalAlignment="Left" Height="20" Margin="181,120,0,0" VerticalAlignment="Top" Width="100" Click="apply_rnd_values_Click"/>
+
+    </Grid>
+</Window>
